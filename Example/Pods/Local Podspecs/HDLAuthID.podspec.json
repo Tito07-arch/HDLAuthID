@@ -1,0 +1,22 @@
+{
+  "name": "HDLAuthID",
+  "version": "0.1.0",
+  "summary": "A short description of HDLAuthID.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Harden-Lee/HDLAuthID",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Harden-Lee": "363182580@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Harden-Lee/HDLAuthID.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HDLAuthID/Classes/**/*"
+}
