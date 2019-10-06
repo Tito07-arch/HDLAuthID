@@ -3,5 +3,6 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'HDLAuthID_Example' do
-  pod 'HDLAuthID'
+#  pod 'HDLAuthID',:path => '../'
+  pod 'HDLAuthID',:podspec => '../HDLAuthID.podspec'
 end

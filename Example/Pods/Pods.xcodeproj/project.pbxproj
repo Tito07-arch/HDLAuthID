@@ -7,27 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18056F2B5107583AEC43349FF3D63A8D /* Pods-HDLAuthID_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F549D7BB42590043EB12C0252E7EBB /* Pods-HDLAuthID_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ABDC7933712F43D4D62EAA71D04681E /* HDLAuthID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E04ADB7D99BB91A70CD2F378DA2947E2 /* HDLAuthID-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		424CE48B99EFC3BBF4A65D8AFD87CA62 /* HDLAuthID.m in Sources */ = {isa = PBXBuildFile; fileRef = 081CE2C6DC9D2CDE7F36AB89648225EB /* HDLAuthID.m */; };
+		32CE5A680657427039CD3945ACF505EA /* HDLAuthID.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B27217591656DDE4BFC3476BB002FF /* HDLAuthID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D25E69285A7FC9EF35FB44060A68C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5EEFB3F84CD5ACF5CE7860464AF586C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7DCC38DEE982A4A26978817B5E2DC256 /* Pods-HDLAuthID_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B85B17047442BFF5FB8AC17F75414322 /* Pods-HDLAuthID_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		966C83FE7C3E3EA0B2DC37687FB1ABC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9E08B704FA58CDF96C2AD628865B6473 /* HDLAuthID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A68EEE5A710E981C100A137FDA120325 /* HDLAuthID-dummy.m */; };
-		BBDAF8F149269B8815463A8FECBA599B /* Pods-HDLAuthID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B76537B89B4277B22012E428D0311A /* Pods-HDLAuthID_Example-dummy.m */; };
-		FA74CFFE1E36A2952B5550AB75CAB528 /* Pods-HDLAuthID_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802CC17CFD3ECF9C0DEB286F6F418FB /* Pods-HDLAuthID_Tests-dummy.m */; };
-		FF0A821B31FD1A3EFA9DD6783F514A26 /* HDLAuthID.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A36C978AFDB71C70ED25D97600E1F7 /* HDLAuthID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DCC38DEE982A4A26978817B5E2DC256 /* Pods-HDLAuthID_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0DE4B6DC43989FB2FF04B2853192B8 /* Pods-HDLAuthID_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B14CF4FBFA6B62018EDF55D180BBB583 /* HDLAuthID.m in Sources */ = {isa = PBXBuildFile; fileRef = 6270D5FF1A8F8290628FF045EED1CC2C /* HDLAuthID.m */; };
+		BBDAF8F149269B8815463A8FECBA599B /* Pods-HDLAuthID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 299F4BE0D778B51FE93D8FB1CF888927 /* Pods-HDLAuthID_Example-dummy.m */; };
+		CA472C4084F61925ACB3DE75C9ABB437 /* HDLAuthID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E5F570675A9B7E94742C70767D08BD /* HDLAuthID-dummy.m */; };
+		F1D8697E37C48D8377F86D0A7A008B5B /* HDLAuthID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 113925A668560990E58046825BFB81BB /* HDLAuthID-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D99CFE6ED6BBA5BC9B8C6AE16BC8F27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D49B823AF971D3BEACA7565F205F0BD4;
-			remoteInfo = "Pods-HDLAuthID_Example";
-		};
 		6020BABDC4655CCDC74AFB3B3B5176C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -38,39 +28,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		005BD196C32F8E2AAA2F895BE9AB5B55 /* Pods-HDLAuthID_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDLAuthID_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		07B76537B89B4277B22012E428D0311A /* Pods-HDLAuthID_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDLAuthID_Example-dummy.m"; sourceTree = "<group>"; };
-		081CE2C6DC9D2CDE7F36AB89648225EB /* HDLAuthID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDLAuthID.m; path = HDLAuthID/Classes/HDLAuthID.m; sourceTree = "<group>"; };
-		08F549D7BB42590043EB12C0252E7EBB /* Pods-HDLAuthID_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDLAuthID_Tests-umbrella.h"; sourceTree = "<group>"; };
-		220D40D253E87678F72AC0A66BBABFAB /* Pods_HDLAuthID_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDLAuthID_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		264915FD7E75CBAD35A0FAB72FE58CB3 /* Pods-HDLAuthID_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDLAuthID_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		269E9B175DEC6BDE28C41302BF8F7C0C /* Pods-HDLAuthID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDLAuthID_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		113925A668560990E58046825BFB81BB /* HDLAuthID-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDLAuthID-umbrella.h"; sourceTree = "<group>"; };
+		1E2D3A8FE6E84081AE9D6B9826848209 /* Pods-HDLAuthID_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HDLAuthID_Example-frameworks.sh"; sourceTree = "<group>"; };
+		254695D29FAF55C02457AE969C54B981 /* HDLAuthID-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDLAuthID-Info.plist"; sourceTree = "<group>"; };
+		299F4BE0D778B51FE93D8FB1CF888927 /* Pods-HDLAuthID_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDLAuthID_Example-dummy.m"; sourceTree = "<group>"; };
+		2A0DE4B6DC43989FB2FF04B2853192B8 /* Pods-HDLAuthID_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDLAuthID_Example-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3802CC17CFD3ECF9C0DEB286F6F418FB /* Pods-HDLAuthID_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HDLAuthID_Tests-dummy.m"; sourceTree = "<group>"; };
-		44015F402CCF7E0C41E6FBB2AD835C57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		46ACBB6AC9AF17321274B6ED096B062E /* Pods-HDLAuthID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDLAuthID_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4C27124B32869A23AC78877B34265023 /* Pods_HDLAuthID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDLAuthID_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7572EB1E668D2CDFDAEEEB78CD41EDD1 /* HDLAuthID-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDLAuthID-prefix.pch"; sourceTree = "<group>"; };
-		87CC662CC50DC1D9232AFF52D30DAD24 /* Pods-HDLAuthID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDLAuthID_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8D82D7703B05EE0FEE2AE5D61DBE63F0 /* Pods-HDLAuthID_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDLAuthID_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8DC9CB6C0678E49A493A64A1A9AEE0F7 /* HDLAuthID-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HDLAuthID-Info.plist"; sourceTree = "<group>"; };
-		93A36C978AFDB71C70ED25D97600E1F7 /* HDLAuthID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDLAuthID.h; path = HDLAuthID/Classes/HDLAuthID.h; sourceTree = "<group>"; };
-		9CC4157131A19C05F1DC212B2B0E291A /* HDLAuthID.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HDLAuthID.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A68EEE5A710E981C100A137FDA120325 /* HDLAuthID-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDLAuthID-dummy.m"; sourceTree = "<group>"; };
-		AB12C0154429598E9AA84A51A818C693 /* Pods-HDLAuthID_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDLAuthID_Tests-Info.plist"; sourceTree = "<group>"; };
-		B85B17047442BFF5FB8AC17F75414322 /* Pods-HDLAuthID_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HDLAuthID_Example-umbrella.h"; sourceTree = "<group>"; };
-		BFE996E02E22AB0FB8AB18A0F69833C1 /* Pods-HDLAuthID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDLAuthID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CCBB44F1C48D60AAE266B38F77583D81 /* Pods-HDLAuthID_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDLAuthID_Tests.modulemap"; sourceTree = "<group>"; };
-		DFFAD71E3C8653D2BD073E74FABAB0A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E04ADB7D99BB91A70CD2F378DA2947E2 /* HDLAuthID-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDLAuthID-umbrella.h"; sourceTree = "<group>"; };
-		E8F0250C597A8250CF0BBA841ADCC9C7 /* Pods-HDLAuthID_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDLAuthID_Example-Info.plist"; sourceTree = "<group>"; };
-		EBB1B468263824C0DC803B677BA1BEBA /* HDLAuthID.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDLAuthID.modulemap; sourceTree = "<group>"; };
-		F50437749C81AFB72AD51DBA6B1D4978 /* HDLAuthID.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDLAuthID.xcconfig; sourceTree = "<group>"; };
-		F6524B9CF5B91EEFF341705BA6BFB2B1 /* Pods-HDLAuthID_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDLAuthID_Example.modulemap"; sourceTree = "<group>"; };
-		F9BFBB2252EF703C7B578CE6EE4CE38D /* HDLAuthID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HDLAuthID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA6BA7FBE84519DE106785152ED98CEE /* Pods-HDLAuthID_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDLAuthID_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FAFA372A39435F8171CA2CE84DBA30D7 /* Pods-HDLAuthID_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HDLAuthID_Example-frameworks.sh"; sourceTree = "<group>"; };
+		331C8B743D16E43947543F0A9DB2D2D1 /* Pods-HDLAuthID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDLAuthID_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4C27124B32869A23AC78877B34265023 /* Pods_HDLAuthID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HDLAuthID_Example.framework; path = "Pods-HDLAuthID_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6270D5FF1A8F8290628FF045EED1CC2C /* HDLAuthID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDLAuthID.m; path = HDLAuthID/Classes/HDLAuthID.m; sourceTree = "<group>"; };
+		6BFB2A256A42632AD3E3D899E6247B0A /* HDLAuthID.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDLAuthID.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A32C004A1BFEB13540C59EDBB7CC530F /* Pods-HDLAuthID_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HDLAuthID_Example.modulemap"; sourceTree = "<group>"; };
+		A7E5F570675A9B7E94742C70767D08BD /* HDLAuthID-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDLAuthID-dummy.m"; sourceTree = "<group>"; };
+		ABA9C4AB51CF980DEF284DD899CB2C40 /* Pods-HDLAuthID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HDLAuthID_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AC75F482C79A67FE955AFDBD4A0BB46E /* Pods-HDLAuthID_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDLAuthID_Example-Info.plist"; sourceTree = "<group>"; };
+		BB4EAF32EC76D466554236357FC07B88 /* HDLAuthID-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDLAuthID-prefix.pch"; sourceTree = "<group>"; };
+		DE22F1339AD9E9DD94AFC3C43A720AF8 /* Pods-HDLAuthID_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HDLAuthID_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E586F6E1FDA44A1DB4506FC45A09327E /* HDLAuthID.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HDLAuthID.modulemap; sourceTree = "<group>"; };
+		F1B27217591656DDE4BFC3476BB002FF /* HDLAuthID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDLAuthID.h; path = HDLAuthID/Classes/HDLAuthID.h; sourceTree = "<group>"; };
+		F475B68FAAA7E6F7285DE8E7965FC9AF /* Pods-HDLAuthID_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HDLAuthID_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9BFBB2252EF703C7B578CE6EE4CE38D /* HDLAuthID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HDLAuthID.framework; path = HDLAuthID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EEFB3F84CD5ACF5CE7860464AF586C9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D374866068E5C09D2386D49CF4324203 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				966C83FE7C3E3EA0B2DC37687FB1ABC0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,57 +71,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0832DAAD8BC1803E1312FE4A12D67905 /* Products */ = {
+		133360D8FD568C8952A354B1FFCA9907 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				F9BFBB2252EF703C7B578CE6EE4CE38D /* HDLAuthID.framework */,
 				4C27124B32869A23AC78877B34265023 /* Pods_HDLAuthID_Example.framework */,
-				220D40D253E87678F72AC0A66BBABFAB /* Pods_HDLAuthID_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		219572BEE42B54FEDAF22E025AFADC04 /* Development Pods */ = {
+		225647A761588890FB4096403240E0E0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D71CBF66F9DEA6FFECAF8D4A537AE111 /* HDLAuthID */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9BA4A120C283B618655F4E6C36D3D3BB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9CC4157131A19C05F1DC212B2B0E291A /* HDLAuthID.podspec */,
-				DFFAD71E3C8653D2BD073E74FABAB0A2 /* LICENSE */,
-				44015F402CCF7E0C41E6FBB2AD835C57 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B795DC827D546610163E97EE5F9786E9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC28E77C3A8CD46DA5252C06486844F5 /* Pods-HDLAuthID_Example */,
-				BFD72057C5A47A06216860BABD1701D6 /* Pods-HDLAuthID_Tests */,
+				CA140EDB354E3CFD0F306FDC844EE8AC /* Pods-HDLAuthID_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BFD72057C5A47A06216860BABD1701D6 /* Pods-HDLAuthID_Tests */ = {
+		42FD1FC419A2E0A63C024F4AB4F82839 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CCBB44F1C48D60AAE266B38F77583D81 /* Pods-HDLAuthID_Tests.modulemap */,
-				8D82D7703B05EE0FEE2AE5D61DBE63F0 /* Pods-HDLAuthID_Tests-acknowledgements.markdown */,
-				264915FD7E75CBAD35A0FAB72FE58CB3 /* Pods-HDLAuthID_Tests-acknowledgements.plist */,
-				3802CC17CFD3ECF9C0DEB286F6F418FB /* Pods-HDLAuthID_Tests-dummy.m */,
-				AB12C0154429598E9AA84A51A818C693 /* Pods-HDLAuthID_Tests-Info.plist */,
-				08F549D7BB42590043EB12C0252E7EBB /* Pods-HDLAuthID_Tests-umbrella.h */,
-				BFE996E02E22AB0FB8AB18A0F69833C1 /* Pods-HDLAuthID_Tests.debug.xcconfig */,
-				46ACBB6AC9AF17321274B6ED096B062E /* Pods-HDLAuthID_Tests.release.xcconfig */,
+				E586F6E1FDA44A1DB4506FC45A09327E /* HDLAuthID.modulemap */,
+				6BFB2A256A42632AD3E3D899E6247B0A /* HDLAuthID.xcconfig */,
+				A7E5F570675A9B7E94742C70767D08BD /* HDLAuthID-dummy.m */,
+				254695D29FAF55C02457AE969C54B981 /* HDLAuthID-Info.plist */,
+				BB4EAF32EC76D466554236357FC07B88 /* HDLAuthID-prefix.pch */,
+				113925A668560990E58046825BFB81BB /* HDLAuthID-umbrella.h */,
 			);
-			name = "Pods-HDLAuthID_Tests";
-			path = "Target Support Files/Pods-HDLAuthID_Tests";
+			name = "Support Files";
+			path = "../Target Support Files/HDLAuthID";
+			sourceTree = "<group>";
+		};
+		7777169B371F746177664F5ECBCD6E9F /* HDLAuthID */ = {
+			isa = PBXGroup;
+			children = (
+				F1B27217591656DDE4BFC3476BB002FF /* HDLAuthID.h */,
+				6270D5FF1A8F8290628FF045EED1CC2C /* HDLAuthID.m */,
+				42FD1FC419A2E0A63C024F4AB4F82839 /* Support Files */,
+			);
+			name = HDLAuthID;
+			path = HDLAuthID;
+			sourceTree = "<group>";
+		};
+		89C18B3855078009963929035CF2F390 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7777169B371F746177664F5ECBCD6E9F /* HDLAuthID */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -162,14 +129,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CA140EDB354E3CFD0F306FDC844EE8AC /* Pods-HDLAuthID_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A32C004A1BFEB13540C59EDBB7CC530F /* Pods-HDLAuthID_Example.modulemap */,
+				DE22F1339AD9E9DD94AFC3C43A720AF8 /* Pods-HDLAuthID_Example-acknowledgements.markdown */,
+				F475B68FAAA7E6F7285DE8E7965FC9AF /* Pods-HDLAuthID_Example-acknowledgements.plist */,
+				299F4BE0D778B51FE93D8FB1CF888927 /* Pods-HDLAuthID_Example-dummy.m */,
+				1E2D3A8FE6E84081AE9D6B9826848209 /* Pods-HDLAuthID_Example-frameworks.sh */,
+				AC75F482C79A67FE955AFDBD4A0BB46E /* Pods-HDLAuthID_Example-Info.plist */,
+				2A0DE4B6DC43989FB2FF04B2853192B8 /* Pods-HDLAuthID_Example-umbrella.h */,
+				331C8B743D16E43947543F0A9DB2D2D1 /* Pods-HDLAuthID_Example.debug.xcconfig */,
+				ABA9C4AB51CF980DEF284DD899CB2C40 /* Pods-HDLAuthID_Example.release.xcconfig */,
+			);
+			name = "Pods-HDLAuthID_Example";
+			path = "Target Support Files/Pods-HDLAuthID_Example";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				219572BEE42B54FEDAF22E025AFADC04 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0832DAAD8BC1803E1312FE4A12D67905 /* Products */,
-				B795DC827D546610163E97EE5F9786E9 /* Targets Support Files */,
+				89C18B3855078009963929035CF2F390 /* Pods */,
+				133360D8FD568C8952A354B1FFCA9907 /* Products */,
+				225647A761588890FB4096403240E0E0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,49 +163,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D71CBF66F9DEA6FFECAF8D4A537AE111 /* HDLAuthID */ = {
-			isa = PBXGroup;
-			children = (
-				93A36C978AFDB71C70ED25D97600E1F7 /* HDLAuthID.h */,
-				081CE2C6DC9D2CDE7F36AB89648225EB /* HDLAuthID.m */,
-				9BA4A120C283B618655F4E6C36D3D3BB /* Pod */,
-				FD97000665A7C6281B3EF998E24FC75E /* Support Files */,
-			);
-			name = HDLAuthID;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FC28E77C3A8CD46DA5252C06486844F5 /* Pods-HDLAuthID_Example */ = {
-			isa = PBXGroup;
-			children = (
-				F6524B9CF5B91EEFF341705BA6BFB2B1 /* Pods-HDLAuthID_Example.modulemap */,
-				FA6BA7FBE84519DE106785152ED98CEE /* Pods-HDLAuthID_Example-acknowledgements.markdown */,
-				005BD196C32F8E2AAA2F895BE9AB5B55 /* Pods-HDLAuthID_Example-acknowledgements.plist */,
-				07B76537B89B4277B22012E428D0311A /* Pods-HDLAuthID_Example-dummy.m */,
-				FAFA372A39435F8171CA2CE84DBA30D7 /* Pods-HDLAuthID_Example-frameworks.sh */,
-				E8F0250C597A8250CF0BBA841ADCC9C7 /* Pods-HDLAuthID_Example-Info.plist */,
-				B85B17047442BFF5FB8AC17F75414322 /* Pods-HDLAuthID_Example-umbrella.h */,
-				269E9B175DEC6BDE28C41302BF8F7C0C /* Pods-HDLAuthID_Example.debug.xcconfig */,
-				87CC662CC50DC1D9232AFF52D30DAD24 /* Pods-HDLAuthID_Example.release.xcconfig */,
-			);
-			name = "Pods-HDLAuthID_Example";
-			path = "Target Support Files/Pods-HDLAuthID_Example";
-			sourceTree = "<group>";
-		};
-		FD97000665A7C6281B3EF998E24FC75E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBB1B468263824C0DC803B677BA1BEBA /* HDLAuthID.modulemap */,
-				F50437749C81AFB72AD51DBA6B1D4978 /* HDLAuthID.xcconfig */,
-				A68EEE5A710E981C100A137FDA120325 /* HDLAuthID-dummy.m */,
-				8DC9CB6C0678E49A493A64A1A9AEE0F7 /* HDLAuthID-Info.plist */,
-				7572EB1E668D2CDFDAEEEB78CD41EDD1 /* HDLAuthID-prefix.pch */,
-				E04ADB7D99BB91A70CD2F378DA2947E2 /* HDLAuthID-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HDLAuthID";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,20 +176,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E132D5EC4CB4CD82DA3E8266FD3E3C2 /* Headers */ = {
+		E2280DDA28F62349C74DC82E4FBBD22E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18056F2B5107583AEC43349FF3D63A8D /* Pods-HDLAuthID_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC4AC40C69702042E53585DAB073AC06 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF0A821B31FD1A3EFA9DD6783F514A26 /* HDLAuthID.h in Headers */,
-				3ABDC7933712F43D4D62EAA71D04681E /* HDLAuthID-umbrella.h in Headers */,
+				F1D8697E37C48D8377F86D0A7A008B5B /* HDLAuthID-umbrella.h in Headers */,
+				32CE5A680657427039CD3945ACF505EA /* HDLAuthID.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +192,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10B5EBD585229356D2EFC91D9E92D4B9 /* Build configuration list for PBXNativeTarget "HDLAuthID" */;
 			buildPhases = (
-				EC4AC40C69702042E53585DAB073AC06 /* Headers */,
-				4624969B7B8FC5C7BF504F672E45DC30 /* Sources */,
+				E2280DDA28F62349C74DC82E4FBBD22E /* Headers */,
+				77ADC9B2F48F395AD365AEF39F76515B /* Sources */,
 				53F1479F67AEBD52ACC766F598A02C6A /* Frameworks */,
 				22AE6664BDA767FDFA2ADFA93DC2AC1E /* Resources */,
 			);
@@ -292,25 +225,6 @@
 			productReference = 4C27124B32869A23AC78877B34265023 /* Pods_HDLAuthID_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D826B78798796455ECFC8326286F7099 /* Pods-HDLAuthID_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56CD99E246A3FDD010893F397CD295F3 /* Build configuration list for PBXNativeTarget "Pods-HDLAuthID_Tests" */;
-			buildPhases = (
-				8E132D5EC4CB4CD82DA3E8266FD3E3C2 /* Headers */,
-				32D27A80A8CE2E3F8B8E2AE11C95B24F /* Sources */,
-				D374866068E5C09D2386D49CF4324203 /* Frameworks */,
-				E337D26A6A29898ED3F7CA334BBE2055 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF8BE16B1D4D954099DD9E806922B75B /* PBXTargetDependency */,
-			);
-			name = "Pods-HDLAuthID_Tests";
-			productName = "Pods-HDLAuthID_Tests";
-			productReference = 220D40D253E87678F72AC0A66BBABFAB /* Pods_HDLAuthID_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -328,13 +242,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0832DAAD8BC1803E1312FE4A12D67905 /* Products */;
+			productRefGroup = 133360D8FD568C8952A354B1FFCA9907 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2426F30D289E0C7C81F37EAD017F77C8 /* HDLAuthID */,
 				D49B823AF971D3BEACA7565F205F0BD4 /* Pods-HDLAuthID_Example */,
-				D826B78798796455ECFC8326286F7099 /* Pods-HDLAuthID_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -354,30 +267,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E337D26A6A29898ED3F7CA334BBE2055 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32D27A80A8CE2E3F8B8E2AE11C95B24F /* Sources */ = {
+		77ADC9B2F48F395AD365AEF39F76515B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA74CFFE1E36A2952B5550AB75CAB528 /* Pods-HDLAuthID_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4624969B7B8FC5C7BF504F672E45DC30 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				424CE48B99EFC3BBF4A65D8AFD87CA62 /* HDLAuthID.m in Sources */,
-				9E08B704FA58CDF96C2AD628865B6473 /* HDLAuthID-dummy.m in Sources */,
+				CA472C4084F61925ACB3DE75C9ABB437 /* HDLAuthID-dummy.m in Sources */,
+				B14CF4FBFA6B62018EDF55D180BBB583 /* HDLAuthID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,12 +295,6 @@
 			name = HDLAuthID;
 			target = 2426F30D289E0C7C81F37EAD017F77C8 /* HDLAuthID */;
 			targetProxy = 6020BABDC4655CCDC74AFB3B3B5176C2 /* PBXContainerItemProxy */;
-		};
-		BF8BE16B1D4D954099DD9E806922B75B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-HDLAuthID_Example";
-			target = D49B823AF971D3BEACA7565F205F0BD4 /* Pods-HDLAuthID_Example */;
-			targetProxy = 1D99CFE6ED6BBA5BC9B8C6AE16BC8F27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -460,7 +352,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -468,7 +361,7 @@
 		};
 		60D5C6E8C62CB2670167BC55639B414A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F50437749C81AFB72AD51DBA6B1D4978 /* HDLAuthID.xcconfig */;
+			baseConfigurationReference = 6BFB2A256A42632AD3E3D899E6247B0A /* HDLAuthID.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -564,7 +457,7 @@
 		};
 		8DC60107D053FC0EE19895EB146F3363 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87CC662CC50DC1D9232AFF52D30DAD24 /* Pods-HDLAuthID_Example.release.xcconfig */;
+			baseConfigurationReference = ABA9C4AB51CF980DEF284DD899CB2C40 /* Pods-HDLAuthID_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -596,42 +489,9 @@
 			};
 			name = Release;
 		};
-		A0C52AC6EDB2707693998EF888CF1043 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFE996E02E22AB0FB8AB18A0F69833C1 /* Pods-HDLAuthID_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HDLAuthID_Tests/Pods-HDLAuthID_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HDLAuthID_Tests/Pods-HDLAuthID_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A492153FF6A57617F133BAC1D433DA46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F50437749C81AFB72AD51DBA6B1D4978 /* HDLAuthID.xcconfig */;
+			baseConfigurationReference = 6BFB2A256A42632AD3E3D899E6247B0A /* HDLAuthID.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -662,7 +522,7 @@
 		};
 		B01C9D717C18A7C405B34ECED335DE53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 269E9B175DEC6BDE28C41302BF8F7C0C /* Pods-HDLAuthID_Example.debug.xcconfig */;
+			baseConfigurationReference = 331C8B743D16E43947543F0A9DB2D2D1 /* Pods-HDLAuthID_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -693,40 +553,6 @@
 			};
 			name = Debug;
 		};
-		DA3A71364ADDC7F0D2AAF29F05EBB54B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46ACBB6AC9AF17321274B6ED096B062E /* Pods-HDLAuthID_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HDLAuthID_Tests/Pods-HDLAuthID_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HDLAuthID_Tests/Pods-HDLAuthID_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -753,15 +579,6 @@
 			buildConfigurations = (
 				B01C9D717C18A7C405B34ECED335DE53 /* Debug */,
 				8DC60107D053FC0EE19895EB146F3363 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		56CD99E246A3FDD010893F397CD295F3 /* Build configuration list for PBXNativeTarget "Pods-HDLAuthID_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A0C52AC6EDB2707693998EF888CF1043 /* Debug */,
-				DA3A71364ADDC7F0D2AAF29F05EBB54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

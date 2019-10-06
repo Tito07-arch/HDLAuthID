@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "AGAuthID.h"
+#import "HDLAuthID.h"
 
 FOUNDATION_EXPORT double HDLAuthIDVersionNumber;
 FOUNDATION_EXPORT const unsigned char HDLAuthIDVersionString[];
