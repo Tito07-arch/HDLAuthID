@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2426F30D289E0C7C81F37EAD017F77C8"
-               BuildableName = "HDLAuthID.framework"
+               BuildableName = "libHDLAuthID.a"
                BlueprintName = "HDLAuthID"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -1,6 +1,0 @@
-framework module HDLAuthID {
-  umbrella header "HDLAuthID-umbrella.h"
-
-  export *
-  module * { export * }
-}

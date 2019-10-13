@@ -1,8 +1,11 @@
-use_frameworks!
+#source 'https://github.com/Harden-Lee/Specs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
 
 target 'HDLAuthID_Example' do
+  pod 'HDLAuthID'
+  pod 'AFNetworking'
 #  pod 'HDLAuthID',:path => '../'
-  pod 'HDLAuthID',:podspec => '../HDLAuthID.podspec'
+#  pod 'HDLAuthID',:podspec => '../HDLAuthID.podspec'
 end
