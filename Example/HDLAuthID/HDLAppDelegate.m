@@ -13,6 +13,36 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[HDAccountManager sharedInstance] updateData];
+    [[HDAccountManager sharedInstance] authTouchIDOrFaceID:^(HDTouchIDOrFaceIDState state, NSError * _Nullable error) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+                       switch (state) {
+                           case HDTouchIDOrFaceIDStateSuccess:
+                           {
+                               NSLog(@"验证成功！");
+                              
+                           }
+                               break;
+                           case HDTouchIDOrFaceIDStateTouchFail:
+                           {
+                               NSLog(@"指纹验证失败！");
+                           }
+                               break;
+                           case HDTouchIDOrFaceIDStateFaceFail:
+                           {
+                               NSLog(@"面容验证失败！");
+                           }
+                               break;
+                           case HDTouchIDOrFaceIDStateTouchIDLockout:
+                           {
+                               NSLog(@"指纹被锁定，请前往设置解锁！");
+                           }
+                               break;
+                           default:
+                               break;
+                       }
+                   });
+    } decribe:@"请验证指纹或者面容"];
     return YES;
 }
 
