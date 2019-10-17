@@ -1,0 +1,55 @@
+size_t        count    =    0;
+    const char*    ptr     =    data;
+    while( size >= sizeof(PACKET_HEADER) )
+    {
+        const PACKET_HEADER*    header    =    (const PACKET_HEADER*)ptr;
+        size_t    len    =    htonl(header->size);
+        if(size < len)
+            break;
+        ptr        +=    len;
+        count    +=    len;
+        size    -=    len;
+        
+        int nCmd = htonl(header->cmd);
+        int pkg_len = htonl(header->size);
+        int body_len = pkg_len - sizeof(PACKET_HEADER);
+        //        printf("\t[%p] Process 0x%x\n", fd.get(),nCmd );
+        
+        NSData *pkg_data = [NSData dataWithBytes:header length:pkg_len];
+        [mainDelegate.socketClient readStreamData:nCmd Body_Len:body_len PkgData:(NSMutableData *)pkg_data Sertype:PLAZA_SERV_TYPE andCallBack:_client];
+        
+        switch (nCmd) {
+            case CMD_PS_CLIENT_CONN_RSP:  //大厅服务器登录成功，发心跳包
+            {
+                PK_PS_CLIENT_CONN_RSP pkg;
+                [pkg_data getBytes:&pkg length:sizeof(pkg)];
+                int code = ntohl(pkg.code);
+                if (code == ERR_OK) {
+                    [self startHeartbeat];
+                    @try {
+                       [self sendHeartbeat];
+                    } @catch (NSException *exception) {
+                        [AppDelegate sendLog:@"大厅开始发送心跳包错误" andLogLevel:AGLogLevel_Warning];
+                    } @finally {
+                        
+                    }
+                    //大厅服务器连接成功,重置重连次数
+                    g_reconn_plaza_times = 0;
+                } else {
+                    //登录统计
+                    [AGCollectionManager sendEvent:LOGINEVENTTYPE_DT value:0 loginname:mainDelegate.userInfo.userId flag:LOGINTYPE_SB recode:code apptype:APPTYPEENUM_RH productId:PRODUCT_ID];
+                    NSString *errorMsg = [NSString stringWithFormat:@"(3)%@",[AGMErrorCode errStrWithErrCode:code]];
+                    [OMGToast showWithText:errorMsg];
+                    [self closePlazaSocket];
+                    [[AGGameSocketManager sharedInstance] closeGameSocket];
+                }
+                //设置统计信息
+                [AGCollectionSocket sharedInstance].contenttimestamp_plaza = 0;
+            }
+                break;
+            default:
+                break;
+        }
+    }
+    return (int)count;
+}
